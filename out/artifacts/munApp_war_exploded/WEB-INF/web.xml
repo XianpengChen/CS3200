@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>AddPeople</servlet-name>
+        <servlet-class>web.admin.AddPeople</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddPeople</servlet-name>
+        <url-pattern>/AddPeople</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddBloc</servlet-name>
+        <servlet-class>web.admin.addBloc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddBloc</servlet-name>
+        <url-pattern>/AddBloc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddEvent</servlet-name>
+        <servlet-class>web.admin.AddEvent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddEvent</servlet-name>
+        <url-pattern>/AddEvent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddCommittee</servlet-name>
+        <servlet-class>web.admin.AddCommittee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCommittee</servlet-name>
+        <url-pattern>/AddCommittee</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>peopleView</servlet-name>
+        <servlet-class>web.view.peopleView</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>peopleView</servlet-name>
+        <url-pattern>/view/people</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>blocView</servlet-name>
+        <servlet-class>web.view.blocView</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>blocView</servlet-name>
+        <url-pattern>/view/bloc</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>eventView</servlet-name>
+        <servlet-class>web.view.eventView</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>eventView</servlet-name>
+        <url-pattern>/view/event</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>committeeView</servlet-name>
+        <servlet-class>web.view.committeeView</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>committeeView</servlet-name>
+        <url-pattern>/view/committee</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin</servlet-name>
+        <servlet-class>web.admin.admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>singleCommittee</servlet-name>
+        <servlet-class>web.view.singleCommittee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>singleCommittee</servlet-name>
+        <url-pattern>/singleCommittee</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addPeopleToCommittee</servlet-name>
+        <servlet-class>web.admin.addPeopleToCommittee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addPeopleToCommittee</servlet-name>
+        <url-pattern>/addPeopleToCommittee</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deletePeopleFromCommittee</servlet-name>
+        <servlet-class>web.admin.deletePeopleFromCommittee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deletePeopleFromCommittee</servlet-name>
+        <url-pattern>/deletePeopleFromCommittee</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>singleEvent</servlet-name>
+        <servlet-class>web.view.singleEvent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>singleEvent</servlet-name>
+        <url-pattern>/singleEvent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addPeopleToEvent</servlet-name>
+        <servlet-class>web.admin.addPeopleToEvent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addPeopleToEvent</servlet-name>
+        <url-pattern>/addPeopleToEvent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateAttendance</servlet-name>
+        <servlet-class>web.admin.updateAttendance</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateAttendance</servlet-name>
+        <url-pattern>/updateEventAttendance</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>singleBloc</servlet-name>
+        <servlet-class>web.view.singleBloc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>singleBloc</servlet-name>
+        <url-pattern>/singleBloc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addPeopleToBloc</servlet-name>
+        <servlet-class>web.admin.addPeopleToBloc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addPeopleToBloc</servlet-name>
+        <url-pattern>/addPeopleToBloc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>removePeopleFromBloc</servlet-name>
+        <servlet-class>web.admin.removePeopleFromBloc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>removePeopleFromBloc</servlet-name>
+        <url-pattern>/removePeopleFromBloc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>singlePeople</servlet-name>
+        <servlet-class>web.view.singlePeople</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>singlePeople</servlet-name>
+        <url-pattern>/singlePeople</url-pattern>
+    </servlet-mapping>
+
+    <!-->make sure add JDBC driver and other jar lib files to tomcat lib folder<!-->
+</web-app>
